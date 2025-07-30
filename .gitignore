@@ -1,9 +1,16 @@
+# Ignore specific video files at root
 /test2.mp4
 /testvideo3.mp4
 /testvideo.mp4
-csv/
+
+# Ignore entire videos folder and its contents
 videos/
-csv/** 
+
+# Ignore all CSV folder contents
+csv/**
+
+# But allow DVC tracking files inside CSV
 !csv/*.dvc
 
+# Explicitly ignore .mp4 files under videos/
 videos/*.mp4
