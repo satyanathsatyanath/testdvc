@@ -1,3 +1,6 @@
 /test2.mp4
 /testvideo3.mp4
 /testvideo.mp4
+csv/*
+!csv/*.dvc
+videos/*.mp4
