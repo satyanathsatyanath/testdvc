@@ -3,5 +3,7 @@
 /testvideo.mp4
 csv/
 videos/
+csv/*
 !csv/*.dvc
+
 videos/*.mp4
