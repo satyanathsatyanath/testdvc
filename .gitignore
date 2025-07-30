@@ -15,3 +15,6 @@ csv/**
 # Explicitly ignore .mp4 files under videos/
 videos/*.mp4
 /data.csv
+ v1/.gitignore
+        v2/data.csv
+        v3/data.csv
