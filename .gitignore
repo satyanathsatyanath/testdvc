@@ -2,3 +2,6 @@ data/
 data/churn.csv
 models/
 
+- data/
++ data/*
++ !data/*.dvc
