@@ -1,7 +1,5 @@
-data/
-data/churn.csv
-models/
 
-- data/
+
+data/*
 + data/*
 + !data/*.dvc
