@@ -3,3 +3,4 @@ data/*
 
 # Except .dvc files (we want to track these)
 !data/*.dvc
+ models/
