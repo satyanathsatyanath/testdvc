@@ -1,5 +1,5 @@
-
-
+# Ignore everything inside data
 data/*
-+ data/*
-+ !data/*.dvc
+
+# Except .dvc files (we want to track these)
+!data/*.dvc
